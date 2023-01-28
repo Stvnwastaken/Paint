@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chrome Paint</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+	<canvas id="canvas"></canvas>
+	<div id="control-panel">
+	<div id="state" class="prevent-select">Off</div>
+	<button id="changeShape" class="prevent-select">Shape 🔁</button>
+	<button id="clear" class="prevent-select">Clear ⌫</button>
+	</div>
+	<button id="collapse" class="prevent-select">◄</button>
+	<button id="settingscog">⚙️</button>
+	<div id="settings" class="settings">
+		<div class="section">
+			<h3> Customize Appearance </h3>
+			<h3>Customize Tools</h3>
+				<div>Brush Fill <input id="brushFillColor" type="color"></div>
+				<div>Brush Stroke <input id="brushStrokeColor" type="color"></div>
+				<div>Canvas Background <input id="canvasColor" type="color"></div>
+		</div>
+		<div class="section">
+			<h3>Control Behavior</h3>
+	</div>
+	<button id="applySettings">Apply Settings</button>
+</div>
+	<script type="module" src="index.js"></script>
+</body>
+</html>
