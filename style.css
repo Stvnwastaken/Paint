@@ -4,7 +4,6 @@ canvas {
 	width: 100%;
 	top: 0;
 	overflow: hidden;
-	z-index: 998;
 }
 
 html,
@@ -212,5 +211,4 @@ input:checked + .slider:before {
 	right: 0;
 	color: white;
 	background-color: #6e727b;
-	z-index: 999;
 }
